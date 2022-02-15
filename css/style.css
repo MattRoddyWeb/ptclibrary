@@ -245,6 +245,7 @@ aside{
 /* footer */
 footer{
 	background-color: aquamarine;
+	padding: 1rem;
 }
 
 @media screen and (min-width: 780px){
