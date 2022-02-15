@@ -216,7 +216,7 @@ header{
 }
 .home__section__staff__info{
 	grid-area: info;
-	margin-left: 1rem;
+	padding: .5rem;
 }
 
 /* aside */
@@ -237,7 +237,8 @@ aside{
 }
 .home__aside__section__contact{
 	background-color: #f66;
-	padding: .5rem .5rem .5rem .5rem;
+	padding: .5rem .5rem 1rem .5rem;
+	margin-top: 1rem;
 }
 
 /* footer */
