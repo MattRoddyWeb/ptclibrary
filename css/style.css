@@ -93,12 +93,12 @@ font-style: italic;
 		max-width: 1000px;
 	}
 
-img{
-	width: 100%;
-}
+	img{
+		width: 100%;
+	}
 	/* header/ nav*/
 
-header{
+	header{
 		display: grid;
 		grid-template-areas: "her her" "log mnav";
 		grid-template-columns:1fr 1fr;
@@ -118,11 +118,11 @@ header{
 	} 
 
  /* nav  */
-.nav--main-nav{
+	.nav--main-nav{
 		grid-area: mnav;
 	} 
 
-.nav__link{
+	.nav__link{
 		border: black 1px solid;
 		grid-area: navl;
 	}
@@ -168,10 +168,10 @@ header{
 	.home__section__welcome_article{
 		grid-area: art;
 	}
-.home__section__welcome_img{
-	grid-area: image;
-	padding-left: 1rem
-}
+	.home__section__welcome_img{
+		grid-area: image;
+		padding-left: 1rem
+	}
 	/* home__section__info */
 	.home__section__info{
 		background-color: green;
@@ -265,6 +265,20 @@ aside{
 footer{
 	background-color: aquamarine;
 	padding: 1rem;
+}
+
+/* Website Styling */
+
+/* Buttons */
+
+button{
+
+	background-color: #151e3f;
+	border-radius: 5px 5px 5px;
+	filter: drop-shadow(4px 4px #030027);
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f2f3d9;
+
 }
 
 @media screen and (min-width: 780px){
