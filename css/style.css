@@ -197,6 +197,22 @@ header{
 		
 	}
 	
+	/* home__section__info_marquee */
+	.home__section__info_marquee{
+		display: grid;
+		grid-template-areas: "btnp im btnn";
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto;
+	}
+	.btnpre{
+		grid-area: btnp;
+	}
+	.btnnext{
+		grid-area: btnn;
+	}
+	.home__section__info_marquee__img{
+		grid-area: im;
+	}
 	/* home__section__image */
 	.home__section__image{
 		background-color: #909;
