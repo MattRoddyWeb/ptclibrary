@@ -203,6 +203,8 @@ header{
 		grid-template-areas: "btnp im btnn";
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: auto;
+	
+	
 	}
 	.btnpre{
 		grid-area: btnp;
@@ -212,6 +214,7 @@ header{
 	}
 	.home__section__info_marquee__img{
 		grid-area: im;
+		width: 5rem;
 	}
 	/* home__section__image */
 	.home__section__image{
@@ -283,5 +286,8 @@ footer{
 	}
 	aside{
 		grid-area: aside;
+	}
+	.home__section__info_marquee__img{
+		width: 10rem;
 	}
 }
