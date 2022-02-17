@@ -120,11 +120,13 @@ font-style: italic;
  /* nav  */
 	.nav--main-nav{
 		grid-area: mnav;
+		padding-top: 1rem;
 	} 
 
 	.nav__link{
 		border: black 1px solid;
 		grid-area: navl;
+	
 	}
 	.na__list{
 		display: grid;
@@ -138,6 +140,7 @@ font-style: italic;
 	.nav__link{
 		border: black 1px solid;
 		grid-area: navl;
+	
 	}
 	/* style links */
 	a {
@@ -176,7 +179,7 @@ font-style: italic;
 	.home__section__info{
 		background-color: green;
 		display: grid;
-		grid-template-areas: "imag info" "imag mar";
+		grid-template-areas: "imag info" "mar mar";
 		grid-template-columns: 1fr 2fr;
 		grid-template-rows: auto auto;
 		padding: 2rem;
@@ -203,8 +206,7 @@ font-style: italic;
 		grid-template-areas: "btnp im im1 im2 btnn";
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-template-rows: auto;
-	
-	
+
 	}
 	.btnpre{
 		grid-area: btnp;
@@ -215,6 +217,12 @@ font-style: italic;
 	.home__section__info_marquee__img{
 		grid-area: im;
 		width: 3rem;
+	}
+	.home__section__info_marquee__program__link{
+		transition: transform 1s ease .2s;
+	}
+	.home__section__info_marquee__program__link:hover{
+		transform: scale(2.5);
 	}
 	.home__section__info_marquee__img1{
 		grid-area: im1;
@@ -275,6 +283,11 @@ footer{
 	padding: 1rem;
 }
 
+/* text */
+p{
+	line-height: 1.25;
+	padding-bottom: .75rem;
+}
 /* Website Styling */
 
 /* Buttons */

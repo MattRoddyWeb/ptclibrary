@@ -41,3 +41,4 @@ const preImg2 = () =>{
   image2.src = imgPlay[whichImg];
 }
 document.querySelector("#previous").addEventListener("click", preImg2);
+
