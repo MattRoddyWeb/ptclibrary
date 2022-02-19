@@ -84,6 +84,7 @@ font-style: italic;
 
 	html{
 		font-size: 100%;
+		background-color: #151e3f;
 	}
 
 	body{
@@ -91,6 +92,7 @@ font-style: italic;
 		margin: 0 auto;
 		padding: 0 2rem 2rem 2rem;
 		max-width: 1000px;
+		background-color: #f2f3d9;
 	}
 
 	img{
@@ -107,7 +109,7 @@ font-style: italic;
 	}
 
 	.logo{
-		max-width: 50px;
+		max-width: 150px;
 		grid-area: log;	
 		margin: 0;
 		padding: 0;
@@ -120,13 +122,11 @@ font-style: italic;
  /* nav  */
 	.nav--main-nav{
 		grid-area: mnav;
-		padding-top: 1rem;
+		padding-top: 1.5rem;
 	} 
 
 	.nav__link{
-		border: black 1px solid;
 		grid-area: navl;
-	
 	}
 	.na__list{
 		display: grid;
@@ -138,9 +138,7 @@ font-style: italic;
 		margin-right: 0; 
 	}
 	.nav__link{
-		border: black 1px solid;
 		grid-area: navl;
-	
 	}
 	/* style links */
 	a {
@@ -160,13 +158,13 @@ font-style: italic;
 	}
 	/* home__section__welcome */
 	.home__section__welcome{
-		background-color: yellow;
+		background-color: white;
 		display: grid;
 		grid-template-areas: "art image";
 		grid-template-columns: 2fr 1fr;
 		grid-template-rows: auto;
 		padding: 2rem;
-
+		margin-bottom: 1rem;
 	}
 	.home__section__welcome_article{
 		grid-area: art;
@@ -177,17 +175,21 @@ font-style: italic;
 	}
 	/* home__section__info */
 	.home__section__info{
-		background-color: green;
+		background-color: white;
 		display: grid;
-		grid-template-areas: "imag info" "mar mar";
+		grid-template-areas: "titl titl" "imag info" "imag mar";
 		grid-template-columns: 1fr 2fr;
 		grid-template-rows: auto auto;
 		padding: 2rem;
-
+		margin-bottom: 1rem;
+	}
+	.home__section__info_title{
+		grid-area: titl;
+		padding: 0 1rem 2rem 1rem;
+		font-size: 2rem;
 	}
 	.home__section__info_img{
 		grid-area: imag;
-	
 	}
 	.home__section__info_article{
 		grid-area: info;
@@ -197,7 +199,6 @@ font-style: italic;
 		grid-area: mar;
 		width: 150px;
 		padding: 1rem 0 0 1rem
-		
 	}
 	
 	/* home__section__info_marquee */
@@ -206,7 +207,7 @@ font-style: italic;
 		grid-template-areas: "btnp im im1 im2 btnn";
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-template-rows: auto;
-
+		margin-bottom: 1rem;
 	}
 	.btnpre{
 		grid-area: btnp;
@@ -234,17 +235,18 @@ font-style: italic;
 	}
 	/* home__section__image */
 	.home__section__image{
-		background-color: #909;
-	
+		background-color: white;
+		margin-bottom: 1rem;
 	}
 
 /* home__section__staff */
 .home__section__staff{
-	background-color: #099;
+	background-color: white;
 	display: grid;
 	grid-template-areas: "staff info";
 	grid-template-columns: 2fr 1fr;
 	grid-template-rows: auto;
+	margin-bottom: 1rem;
 }
 .home__section__staff__img{
 	grid-area: staff;
@@ -253,17 +255,37 @@ font-style: italic;
 	grid-area: info;
 	padding: .5rem;
 }
-
+.home__section__staff__info__info{
+	padding-bottom: 0;
+}
+.home__section__staff__info__title{
+	font-size: 1.5rem;
+	padding-bottom: 1.12rem;
+}
+.home__section__staff__info__info__2{
+	padding-top: 1.5rem;
+	padding-bottom: 0;
+}
+/* home__section__missonstatement */
+.home__section__missonstatement{
+	background-color: white;
+	padding: 2rem;
+	
+}
+.home__section__missonstatement__title{
+	font-size: 2rem;
+	padding-bottom: 1rem;
+}
 /* aside */
 aside{
-	background-color: #960;
+	background-color: white;
 	padding: 1rem;
 }
 
 .home__aside__section__about{
 	padding: .5rem 0 1rem 0;
 	margin-top: 1rem;
-	background-color: blueviolet;
+	background-color: white;
 }
 .home__aside__section__hours{
 	padding: 0 .5rem .5rem .5rem; 
@@ -272,14 +294,14 @@ aside{
 	padding: 0 .5rem 0 .5rem;
 }
 .home__aside__section__contact{
-	background-color: #f66;
+	background-color: white;
 	padding: .5rem .5rem 1rem .5rem;
 	margin-top: 1rem;
 }
 
 /* footer */
 footer{
-	background-color: aquamarine;
+	background-color: white;
 	padding: 1rem;
 }
 
@@ -288,18 +310,22 @@ p{
 	line-height: 1.25;
 	padding-bottom: .75rem;
 }
-/* Website Styling */
+h3{
+	font-size: 2rem;
+	padding-bottom: 1rem;
+}
+h4{
+	font-size: 1.25rem;
+}
 
 /* Buttons */
 
 button{
-
 	background-color: #151e3f;
 	border-radius: 5px 5px 5px;
 	filter: drop-shadow(4px 4px #030027);
 	font-family: Arial, Helvetica, sans-serif;
 	color: #f2f3d9;
-
 }
 
 @media screen and (min-width: 780px){
