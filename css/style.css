@@ -909,20 +909,25 @@ font-style: italic;
 	@media screen and (min-width: 1068px){
 
 		html{
+
 			font-size: 100%;
-			margin: 0 20%;
+			margin: 0 10%;
 			background-color: #151e3f;
+
 		}
 		.masthead{
-		position: relative;
- 	 	text-align: center;
-  		color: white;
+
+			position: relative;
+			text-align: center;
+			color: white;
+
 		}
 
 		.logo{
+
 			position: absolute;
 			top: 10px;
-			left: 270px;
+			left: 140px;
 			
 		}
 
