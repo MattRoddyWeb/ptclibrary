@@ -90,6 +90,8 @@ font-style: italic;
 			font-size: 100%;
 			padding: 0 0 5%;
 			background-color: #f2f3d9;
+			
+			
 		}
 
 		img{
@@ -365,7 +367,7 @@ font-style: italic;
 		}
 
 		.home__aside__section__about{
-			padding: .5rem 0 1rem 0;
+			padding: .5rem 0 .5rem 0;
 			margin-top: 1rem;
 			background-color: white;
 		}
@@ -396,13 +398,24 @@ font-style: italic;
 			padding-bottom: .75rem;
 			font-family: Arial, Helvetica, sans-serif;
 		}
+
+		h2{
+			font-size: 1.5rem;
+			padding-bottom: 1rem;
+			color:#BF311A;
+			font-family: 'Alegreya Sans SC', sans-serif;
+			text-align:center;
+		}
 		h3{
 			font-size: 2rem;
 			padding-bottom: 1rem;
+			color:#151e3f;
+			font-family: 'Nunito Sans', sans-serif;
 		}
 		h4{
 			font-size: 1.25rem;
 			padding-bottom: 0.5rem;
+			font-family: 'Libre Baskerville', serif;
 		}
 
 		label{
@@ -457,14 +470,28 @@ font-style: italic;
 			html{
 				font-size: 100%;
 				margin: 0 5%;
-				background-color: #151e3f;
+							/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#151e3f+0,030027+24,f2f3d9+51,dc9e82+81,c16e70+100 */
+				background: #151e3f; /* Old browsers */
+				background: -moz-linear-gradient(top,  #151e3f 0%, #030027 24%, #f2f3d9 51%, #dc9e82 81%, #c16e70 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #151e3f 0%,#030027 24%,#f2f3d9 51%,#dc9e82 81%,#c16e70 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #151e3f 0%,#030027 24%,#f2f3d9 51%,#dc9e82 81%,#c16e70 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151e3f', endColorstr='#c16e70',GradientType=0 ); /* IE6-9 */
+
+
 			}
 
 			body{
 				font-size: 100%;
 				padding: 0;
 				margin: 0 auto;
-				background-color: #f2f3d9;
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f3d9+0,f2f3d9+71,ffffff+100 */
+				background: #f2f3d9; /* Old browsers */
+				background: -moz-linear-gradient(top,  #f2f3d9 0%, #f2f3d9 71%, #ffffff 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #f2f3d9 0%,#f2f3d9 71%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #f2f3d9 0%,#f2f3d9 71%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f3d9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
 			}
 
 			img{
@@ -490,7 +517,7 @@ font-style: italic;
 
 			.logo{
 				width: 100%;
-				max-width: 150px;
+				max-width: 200px;
 				margin: 0;
 				padding: 0;
 				padding-left: 1%;
@@ -524,13 +551,13 @@ font-style: italic;
 				padding: 4%;
 				font-size: 100%;
 				width: 100%;
-
+				font-family: 'Alegreya', serif;
 			}
 
 			.nav__link:hover{
 
 				background-color: #030027;
-				color:#099;
+				color:#C16E70;
 				filter: drop-shadow(4px 4px #151e3f);
 
 			}
@@ -613,10 +640,11 @@ font-style: italic;
 			}
 			.home__section__welcome_article{
 				grid-area: art;
+				
 			}
 			.home__section__welcome_img{
 				grid-area: image;
-				padding-left: 1rem
+				padding-left: 1rem;
 			}
 		/* home__section__info */
 			.home__section__info{
@@ -659,9 +687,11 @@ font-style: italic;
 			}
 			.btnpre{
 				grid-area: btnp;
+				font-family: 'Alegreya', serif;
 			}
 			.btnnext{
 				grid-area: btnn;
+				font-family: 'Alegreya', serif;
 			}
 			.home__section__info_marquee__img{
 				grid-area: im;
@@ -766,7 +796,8 @@ font-style: italic;
 
 		/* footer */
 			footer{
-			background-color: white;
+			background-color: #151e3f;
+			color:#f2f3d9;
 			padding: 1rem;
 			}
 
@@ -774,7 +805,7 @@ font-style: italic;
 			p{
 			line-height: 1.25;
 			padding-bottom: .75rem;
-			font-family: Arial, Helvetica, sans-serif;
+			font-family: 'Alegreya Sans', sans-serif;
 			}
 			h3{
 			font-size: 2rem;
@@ -795,6 +826,18 @@ font-style: italic;
 			}
 
 	}
+	.masthead{
+		position: relative;
+ 	 	text-align: center;
+  		color: white;
+		}
+
+		.logo{
+			position: absolute;
+			top: 10px;
+			left: 25px;
+		}
+	
 
 	@media screen and (min-width: 780px){
 
@@ -806,7 +849,7 @@ font-style: italic;
 			grid-template-rows: auto auto auto;
 			grid-gap: 0;
 			padding: 0;
-
+			
 		}
 
 		main{
@@ -839,15 +882,51 @@ font-style: italic;
 			margin-left: 54%;
 
 		}
+		.container {
+			position: relative;
+			text-align: center;
+			color: white;
+		  }
+		.top-left {
+			position: absolute;
+			top: 8px;
+			left: 16px;
+		  }
 
+		  .masthead{
+			position: relative;
+			  text-align: center;
+			  color: white;
+			}
+	
+			.logo{
+				position: absolute;
+				top: 10px;
+				left: 50px;
+			}
 	}
 
+	
+
+	
 	@media screen and (min-width: 1068px){
 
 		html{
 			font-size: 100%;
 			margin: 0 20%;
 			background-color: #151e3f;
+		}
+		.masthead{
+		position: relative;
+ 	 	text-align: center;
+  		color: white;
+		}
+
+		.logo{
+			position: absolute;
+			top: 10px;
+			left: 270px;
+			
 		}
 
 	}
