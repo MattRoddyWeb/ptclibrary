@@ -12,34 +12,48 @@
 </head>
 
 <body>
-  <header>
+
+  <header id="masthead">
+
     <img src="img/students.jpg" alt="Welcome to the library" class="hero">
 
-    <img src="img/logo.png" alt="library logo" class="logo">
-    <nav class="nav nav--main-nav">
-      <ol class="na__list">
-        <li><a href="#" class="nav__link">Online Resources</a></li>
-        <li><a href="#" class="nav__link">About</a></li>
-        <li><a href="#" class="nav__link">Contact</a></li>
-        <li><a href="#" class="nav__link">Programs</a></li>
-        <li><a href="#" class="nav__link">nav5</a></li>
-      </ol>
-    </nav>
+    <div class="masthead__flex-container">
+    
+      <img src="img/logo.png" alt="library logo" class="logo">
+
+      <button class="nav__button">&#9776;</button>
+
+    </div>
+
+      <nav class="nav nav--main-nav invisible">
+
+        <ol class="na__list">
+          <li><a href="#" class="nav__link">Online Resources</a></li>
+          <li><a href="#" class="nav__link">About</a></li>
+          <li><a href="#" class="nav__link">Contact</a></li>
+          <li><a href="#" class="nav__link">Programs</a></li>
+          <li><a href="#" class="nav__link">nav5</a></li>
+        </ol>
+        
+      </nav>
+
   </header>
 
   <main class="home">
     <section class="home__section__welcome">
       <article class="home__section__welcome_article">
-        <p>Welcome to The Library the goal of the Library Resource Center is to provide users excellent service and to
-          meet their highest expectations for the successful pursuit of academic endeavors. The library will serve as a
-          conduit to discovery and self-education.
-          Meeting the information needs of its students, faculty, and staff by providing resources, to support
-          curriculum objectives, and enabling users to become information literate. While acquiring and organizing
-          information resources, acting as a guide to information utilizing traditional formats and innovative
-          technology.
-        </p>
-        <p>The staff is fully committed to helping users access the most up-to-date global information available to
-          support and develop their skills, and preparing them for lifelong learning.</p>
+
+        <h3>Welcome to The Library</h2> 
+          
+          <p> The goal of the Library Resource Center is to provide users excellent service and to
+          meet their highest expectations for the successful pursuit of academic endeavors. </p>
+          
+          <p>The library will serve as a conduit to discovery and self-education.</p>
+          
+          <p>Meeting the information needs of its students, faculty, and staff by providing resources, to support curriculum objectives, and enabling users to become information literate. While acquiring and organizing information resources, acting as a guide to information utilizing traditional  formats and innovative technology.</p>
+
+        <p>The staff is fully committed to helping users access the most up-to-date global information available to support and develop their skills, and preparing them for lifelong learning.</p>
+
       </article>
 
       <img src="img/Medicine Mascot.svg" class="home__section__welcome_img" alt="Welcome Character">
@@ -48,22 +62,22 @@
     </section>
 
     <section class="home__section__info">
-      <h3 class="home__section__info_title">Resources for your Program:</h3>
+      <h3 class="home__section__info_title">Resources for your Program</h3>
       <img src="img/Culinary Mascot.svg" class="home__section__info_img" alt="">
       <article class="home__section__info_article">
-        <p>Select your program to help you find PTC sources to help you excel!</p>
+        <p>Select your program from the menu below to find resources.</p>
         
       </article>
 
       <section class="home__section__info_marquee">
-        <button id="previous" class="btnpre">previous</button>
+        <button id="previous" class="btnpre">Previous</button>
         <a href="program1.html" class="home__section__info_marquee__program__link"><img src="img/placeholder.jpg"
             class="home__section__info_marquee__img " id="marquee" alt=""></a>
         <img src="img/placeholder2.jpg"
           class="home__section__info_marquee__img1 home__section__info_marquee__program__link" id="marquee1" alt="">
         <img src="img/placeholder3.jpg"
           class="home__section__info_marquee__img2 home__section__info_marquee__program__link" id="marquee2" alt="">
-        <button id="next" class="btnnext">next</button>
+        <button id="next" class="btnnext">Next</button>
       </section>
     </section>
 
@@ -108,10 +122,18 @@
     <section class="home__aside__section__about">
       <article class="home__aside__section__hours">
         <h4>Library Hours</h4>
-        <p> Monday 9:00 am - 5:00 pm</p>
-        <p>Tuesday - Thursday 9:00 am - 6:00 pm</p>
-        <p>Friday 9:00 am - 5:00 pm</p> 
+
+        <p> <b>Monday</b> </p>
+        <p> <i>9:00 am - 5:00 pm</i> </p>
+        
+        <p> <b>Tuesday - Thursday</b> </p>
+        <p> <i>9:00 am - 6:00 pm</i> </p>
+        
+        <p> <b>Friday</b> </p>
+        <p> <i>9:00 am - 5:00 pm</i> </p> 
+        
         <p>Additional evening hours by appointment.</p>
+
       </article>
       <article class="home__aside__section__resource">
         <h4>Library Services and Resources</h4>
