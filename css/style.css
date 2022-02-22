@@ -286,7 +286,7 @@ font-style: italic;
 		.home__section__info_marquee__img{
 			grid-area: im;
 			width: 3rem;
-			padding: .15rem !important;
+			margin: .15rem !important;
 		}
 		.home__section__info_marquee__program__link{
 			transition: transform 1s ease .2s;
@@ -297,12 +297,12 @@ font-style: italic;
 		.home__section__info_marquee__img1{
 			grid-area: im1;
 			width: 3rem;
-			padding: .15rem !important;
+			margin: .15rem !important;
 		}
 		.home__section__info_marquee__img2{
 			grid-area: im2;
 			width: 3rem;
-			padding: .15rem !important;
+			margin: .15rem !important;
 		}
 
 	/* home__section__image */
