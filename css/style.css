@@ -443,28 +443,34 @@ font-style: italic;
 			font-family: Arial, Helvetica, sans-serif;
 			color: #f2f3d9;
 		}
-/* about__section__welcome */
-.about__section__welcome{
-	background-color: white;
-	display: grid;
-	grid-template-areas: "title-hx picture" "hx picture";
-	grid-template-columns: 2fr 1fr;
-	grid-template-rows: auto;
+
+
+/* about__section__hx */
+.about__section__hx{
+	border-radius: 5px; 
+	display: block;
 	margin-bottom: 1.5rem;
 	margin-top: 1.5rem;
 	box-shadow:0 0 10px #03002798;
-	border-radius: 5px;
-}
-.about__section__welcome__img{
-	grid-area: picture;
-	widows: 100%;
-}
-.about__section__welcome__info{
-	grid-area: hx;
-}
-.about__section__welcome__info__title{
-	grid-area: title-hx;
-}
+	background-color: white;
+	}
+	.about__section__hx__title{
+		grid-area: title;
+		padding: 1.5rem 2rem 1rem 2rem;
+	}
+	.about__section__hx__article{
+		grid-area: text;
+		padding-left: 2rem;
+	}
+	.about__section__hx__image{
+		grid-area: hx_image;
+	}
+
+	/* home__aside__section__24hour */
+	.home__aside__section__24hours{
+		padding: 0 .5rem .5rem .5rem;
+		margin-top: 1.rem;
+	}
 /* Media queries */
 
 	@media screen and (min-width: 480px){
@@ -513,7 +519,26 @@ font-style: italic;
 
 
 			}
-
+			.about__section__hx{
+				display: grid;
+				grid-template-areas:"title hx_image" "text hx_image";
+				grid-template-columns: 2fr 1fr;
+				grid-template-rows: auto auto;
+				background-color: white;
+				
+			}
+			.about__section__hx__title{
+				grid-area: title;
+				padding: 1.5rem 2rem 1rem 2rem;
+			}
+			.about__section__hx__article{
+				grid-area: text;
+				padding-left: 2rem;
+			}
+			.about__section__hx__image{
+				grid-area: hx_image;
+			}
+			
 			body{
 				font-size: 100%;
 				padding: 0;
@@ -764,8 +789,6 @@ font-style: italic;
 				margin-bottom: 1.5rem;
 				margin-top: 1.5rem;
 				box-shadow:0 0 10px #03002798;
-				/* border: 2px solid #030027; */
-			
 				border-radius: 5px;
 			}
 			.home__section__staff__img{
@@ -798,6 +821,7 @@ font-style: italic;
 			padding-bottom: 1rem;
 			}
 
+		
 		/* aside */
 			aside{
 			background-color: white;
