@@ -525,7 +525,7 @@ padding: 0;
 margin-bottom: 20px;
 }
 .padding{
-padding-top:20rem;
+padding-top:25rem;
 }
 
 /* about__section__hx */
@@ -651,7 +651,7 @@ padding: 0;
 margin-bottom: 20px;
 }
 .padding{
-padding-top:25rem;
+padding-top:20rem;
 }
 
 		}
@@ -1231,7 +1231,7 @@ padding-top:25rem;
 		margin-bottom: 20px;
 	}
 	.padding{
-		padding-top:20rem;
+		padding-top:23rem;
 	}
 	
 	}
@@ -1383,12 +1383,120 @@ padding-top:25rem;
 			margin-bottom: 20px;
 		}
 		.padding{
-			padding-top:20rem;
+			padding-top:23rem;
 		}
 			
 	}
 
-	
+	@media screen and (min-width: 960px){
+
+		html{
+
+			font-size: 100%;
+			margin: 0 10%;
+			background-color: #151e3f;
+
+		}
+		.masthead{
+
+			position: relative;
+			text-align: center;
+			color: white;
+
+		}
+
+		.logo{
+
+			position: absolute;
+			top: 10px;
+			left: 140px;
+			
+		}
+		/*tabs*/
+		.tabs dd, .tabs li {
+			display: block;
+			float: left;
+			padding: 0;
+			margin: 0;
+		}
+		dd {
+			display: block;
+			margin-inline-start: 40px;
+		}
+
+.tabs.pill dd, .tabs.pill li {
+    margin-right: 10px;
+}
+		dl.tabs.pill>dd.active a, dl.tabs.pill>dd.active:hover a {
+			border: 1px solid #fff;
+			color: white;
+			background: #c22;
+			-webkit-box-shadow: rgb(0 0 0 / 30%) 0 1px 3px 0 inset;
+			-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px 0 inset;
+			box-shadow: rgb(0 0 0 / 30%) 0 1px 3px 0 inset;
+			font-weight: normal;
+		}
+
+		.tabs.pill dd.active a, .tabs.pill li.active a {
+			background-color: #c22;
+			border: none;
+			color: #fff;
+	}
+
+	dl.tabs.pill>dd a {
+		height: auto;
+		-webkit-box-shadow: rgb(0 0 0 / 15%) 0 1px 2px 0;
+		-moz-box-shadow: rgba(0,0,0,0.15) 0 1px 2px 0;
+		box-shadow: rgb(0 0 0 / 15%) 0 1px 2px 0;
+		border: 1px solid #ccc;
+	}
+	.tabs.pill dd a, .tabs.pill li a {
+		-webkit-border-radius: 1000px;
+		-moz-border-radius: 1000px;
+		-ms-border-radius: 1000px;
+		-o-border-radius: 1000px;
+		border-radius: 1000px;
+		background: #e6e6e6;
+		height: 26px;
+		line-height: 26px;
+		color: #666;
+	}
+
+	.tabs dd.active a, .tabs li.active a {
+		cursor: default;
+		color: gray;
+		background: #fff;
+		border-left: 1px solid #e6e6e6;
+		border-right: 1px solid #e6e6e6;
+		font-weight: bold;
+	}
+
+	.tabs dd a, .tabs li a {
+		color: #b3b3b3;
+		display: block;
+		font-size: 14px;
+		height: 40px;
+		line-height: 40px;
+		padding: 0px 23.8px;
+	}
+
+	*, *:before, *:after {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.tabs {
+		list-style: none;
+		border-bottom: solid 1px #e6e6e6;
+		display: block;
+		height: 40px;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.padding{
+		padding-top:19rem;
+	}
+}
 
 	
 	@media screen and (min-width: 1068px){
@@ -1497,6 +1605,6 @@ padding-top:25rem;
 		margin-bottom: 20px;
 	}
 	.padding{
-		padding-top:20rem;
+		padding-top:19rem;
 	}
 }
