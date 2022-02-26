@@ -96,3 +96,12 @@
   navbutton.addEventListener("click", navclicked);
 
   detectsize();
+
+
+
+
+
+
+
+
+  
