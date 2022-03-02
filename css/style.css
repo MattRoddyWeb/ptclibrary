@@ -395,7 +395,24 @@ font-style: italic;
 			padding: .5rem .5rem 1rem .5rem;
 			margin-top: 1rem;
 		}
+/* about__section__meetstaff */
+.about__section__meetstaff{
+	padding: 1rem;
+	margin-top: 1rem;
+	background-color: white;
+	box-shadow:0 0 10px #03002798;
+	display: block;
+}
 
+.about__section__meetstaff__title{
+	font-size: 1.5rem;
+	padding-bottom: 1.12rem;
+	padding-top: .5rem;
+}
+
+.about__section__meetstaff__2{
+	padding-top: 2rem;
+}
 	/* footer */
 		footer{
 			background-color: white;
@@ -751,8 +768,31 @@ padding-top:20rem;
 		padding-top:20rem;
 	}
 
-	}
 
+
+	/* about__section__meetstaff */
+	.about__section__meetstaff__1{
+		display: grid;
+		grid-template-areas: "staffimage stafftext";
+		grid-template-columns: 1fr 2fr;
+		grid-template-columns: auto;
+		gap: 1rem;
+	}
+	.about__section__meetstaff__img{
+		grid-area: staffimage;
+	}
+	.about__section__meetstaff__aboutstaff{
+		grid-area: stafftext;
+	}
+	.about__section__meetstaff__2{
+		display: grid;
+		grid-template-areas: "staffimage stafftext";
+		grid-template-columns: 1fr 2fr;
+		grid-template-columns: auto;
+		gap: 1rem;
+		margin-top: 2rem;
+	}
+		}
 	@media screen and (min-width:768px){
 
 		/* custom style */
