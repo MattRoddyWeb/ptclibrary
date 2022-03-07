@@ -194,13 +194,13 @@ font-style: italic;
 			color: #960;
 		}
 		a:visited:not(.nav__link){
-			color: #909;
+			color: rgb(4, 137, 167);
 		}
 		a:hover:not(.nav__link){
 			color: #099;
 		}
 		a:focus:not(.nav__link){
-			color: #999;
+			color: rgb(6, 106, 182);
 		}
 		a:active:not(.nav__link){
 				color: #f66;
@@ -578,6 +578,14 @@ margin-bottom: 20px;
 		padding: 0 .5rem .5rem .5rem;
 		margin-top: 1.rem;
 	}
+	.resource_title{
+		font-weight:bold;
+		font-size:1.3rem;
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+	li{
+		font-family: 'Nunito Sans', sans-serif;
+	}
 /* Media queries */
 
 	@media screen and (min-width: 480px){
@@ -683,7 +691,14 @@ dl.tabs.pill {
 	border-bottom: none;
 	margin-bottom: 10px;
 }
-
+.resource_title{
+	font-weight:bold;
+	font-size:1.3rem;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+li{
+	font-family: 'Nunito Sans', sans-serif;
+}
 
 		}
 	
@@ -787,7 +802,14 @@ dl.tabs.pill {
 			border-bottom: none;
 			margin-bottom: 10px;
 		}
-	
+		.resource_title{
+			font-weight:bold;
+			font-size:1.3rem;
+			font-family: 'Alegreya Sans SC', sans-serif;
+		}
+		li{
+			font-family: 'Nunito Sans', sans-serif;
+		}
 
 
 
@@ -813,6 +835,14 @@ dl.tabs.pill {
 		grid-template-columns: auto;
 		gap: 1rem;
 		margin-top: 2rem;
+	}
+	.resource_title{
+		font-weight:bold;
+		font-size:1.3rem;
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+	li{
+		font-family: 'Nunito Sans', sans-serif;
 	}
 		}
 	@media screen and (min-width:768px){
@@ -1301,7 +1331,14 @@ dl.tabs.pill {
 		border-bottom: none;
 		margin-bottom: 10px;
 	}
-
+	.resource_title{
+		font-weight:bold;
+		font-size:1.3rem;
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+	li{
+		font-family: 'Nunito Sans', sans-serif;
+	}
 
 	
 	}
@@ -1461,6 +1498,14 @@ dl.tabs.pill {
 			border-bottom: none;
 			margin-bottom: 10px;
 		}
+		.resource_title{
+			font-weight:bold;
+			font-size:1.3rem;
+			font-family: 'Alegreya Sans SC', sans-serif;
+		}
+		li{
+			font-family: 'Nunito Sans', sans-serif;
+		}
 			
 	}
 
@@ -1577,6 +1622,14 @@ dl.tabs.pill {
 	.tabs.pill {
 		border-bottom: none;
 		margin-bottom: 10px;
+	}
+	.resource_title{
+		font-weight:bold;
+		font-size:1.3rem;
+		font-family: 'Alegreya Sans SC', sans-serif;
+	}
+	li{
+		font-family: 'Nunito Sans', sans-serif;
 	}
 }
 
@@ -1721,4 +1774,13 @@ dl.tabs.pill {
     padding: 0;
     margin-bottom: 20px;
 }
+.resource_title{
+	font-weight:bold;
+	font-size:1.3rem;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+li{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
 }
