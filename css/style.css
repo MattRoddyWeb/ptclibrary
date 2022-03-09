@@ -155,6 +155,7 @@ font-style: italic;
 			border-radius: 5px 5px 5px;
 			filter: drop-shadow(4px 4px #030027);
 			font-family: Arial, Helvetica, sans-serif;
+			font-size:1.1rem;
 			color: #f2f3d9;
 			text-decoration: none;
 			margin: 4% 0;
@@ -254,6 +255,16 @@ font-style: italic;
 			grid-area: imag;
 			padding-left: 0;
 			margin-left: 0;
+		}
+		.home__section__info_img2{
+			width:28%;
+			float:right;
+			
+		}
+		.programs_blurb{
+			float:left;
+			padding:0;
+			margin:0;
 		}
 		.home__section__info_article{
 			grid-area: info;
@@ -715,7 +726,15 @@ dl.tabs.pill {
 li{
 	font-family: 'Nunito Sans', sans-serif;
 }
-
+.scrollable {
+    display: block;
+            border: 0px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 115%;
+            height: 600px;
+            overflow-y: scroll;
+}
 		}
 	
 
@@ -860,6 +879,7 @@ li{
 	li{
 		font-family: 'Nunito Sans', sans-serif;
 	}
+	
 		}
 	@media screen and (min-width:768px){
 
@@ -966,7 +986,7 @@ li{
 				display: block;
 				margin: 0;
 				padding: 4%;
-				font-size: 100%;
+				font-size:1.1rem;
 				width: 100%;
 				font-family: 'Alegreya', serif;
 			}
@@ -1647,6 +1667,7 @@ li{
 	li{
 		font-family: 'Nunito Sans', sans-serif;
 	}
+	
 }
 
 	
@@ -1798,5 +1819,13 @@ li{
 li{
 	font-family: 'Nunito Sans', sans-serif;
 }
-
+.scrollable {
+    display: block;
+            border: 0px solid red;
+            padding: 5px;
+            margin-top: 5px;
+            width: 152%;
+            height: 600px;
+            overflow-y: scroll;
+}
 }

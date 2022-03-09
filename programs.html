@@ -11,7 +11,27 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Alegreya+Sans+SC:wght@500&family=Libre+Baskerville&family=Nunito+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
+    </style>
 </head>
 
 
@@ -28,7 +48,7 @@
         <ol class="na__list">
           <li><a href="index.html" class="nav__link">Home</a></li>
           <li><a href="about.html" class="nav__link">About</a></li>
-          <li><a href="#" class="nav__link">Contact</a></li>
+          <!-- <li><a href="#" class="nav__link">Contact</a></li> -->
           <li><a href="programs.html" class="nav__link">Resources for Your Program</a></li>
           <li><a href="#" class="nav__link">Search</a></li>
         </ol>
@@ -37,10 +57,15 @@
 
 
   <main class="home">
-    <section class="home__section__welcome">
+    <section class="home__section__info">
       <article class="home__section__welcome_article">
-        <h3>Blurb</h2> 
-          <p>lorem ipsum</p>
+        
+      
+        <p class="programs_blurb"></p>
+          <p class="programs_blurb"> </p>
+            <p class="programs_blurb"></p>
+          
+        <img src="img/Searching_Firefly.svg" class="home__section__info_img2" alt="firefly searching">
       </article>
 
     </section>
@@ -62,7 +87,7 @@
 
 
   
-  
+
   <dl class="tabs pill">
     
     <!-- remove id = active -->
@@ -172,13 +197,15 @@
   </dl>
 
   
-  
+  <div class="scrollable">
+   
+
   <ul class="tabs-content">
 
     <!-- removed class = "active" -->
     <li id="account">
       <p class="resource_title"><strong>Accounting Administration/Business Administration</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.accountingweb.com/" target="_blank">Accounting Web</a></li>
@@ -191,7 +218,7 @@
 <li><a href="http://www.taxalmanac.org/index.php/Main_Page.html">TaxAlmanac</a></li>
 </ul>
 
-<p class="resource_title"><strong>Company Information:</strong></p>
+<p><strong>Company Information:</strong></p>
 
 <ul>
 <li><a href="http://www.bpubs.com/" target="_blank">BPubs.com</a> - The Business Publications Search Engine</li>
@@ -202,7 +229,7 @@
 <li><a href="http://www.pbs.org/wgbh/pages/frontline/shows/dotcon/thinking/stats.html" target="_blank">Statistics on the Internet Bubble</a></li>
 </ul>
 
-<p class="resource_title"><strong>Legal Information</strong></p>
+<p><strong>Legal Information</strong></p>
 
 <ul>
 <li><a href="http://findlaw.com/" target="_blank">Find Law</a> Scroll to bottom to find resource links for various topics.</li>
@@ -213,7 +240,7 @@
 <li><a href="https://www.congress.gov/" target="_blank">Congress.gov</a> - THOMAS.gov, the online legislative information system, has transitioned to Congress.gov.</li>
 </ul>
 
-<p class="resource_title"><strong>Money and Investing/Business News</strong></p>
+<p><strong>Money and Investing/Business News</strong></p>
 
 <ul>
 <li><a href="https://www.cnn.com/business" target="_blank">CNN Business News</a></li>
@@ -225,7 +252,7 @@
 <li><a href="https://www.students.ptcollege.edu/library-resource-center/newspaper-and-map/">Wall Street Journal</a> - located on library website under<strong><em> Newspapers and Maps</em></strong></li>
 </ul>
 
-<p class="resource_title"><strong>Small Business Reesources</strong></p>
+<p><strong>Small Business Resources</strong></p>
 
 <ul>
 <li><a href="https://www.cnbc.com/small-business/">CNBC Small Business</a></li>
@@ -236,7 +263,7 @@
 <li><a href="https://smallbiztrends.com/2021/01/small-business-news.html">Small Business Trends</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>Ad Age (formerly Advertising Age)</li>
@@ -294,7 +321,7 @@
     
     <li id="computerp">
       <p class="resource_title"><strong>Computer Programming/Information Technology</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.mkdata.dk/click/index.htm" target="_blank">A Complete Illustrated Guide to PC Hardware</a></li>
@@ -318,7 +345,7 @@
 <li><a href="http://www.zdnet.com/" target="_blank">ZDnet</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li><a href="https://gcn.com/pages/digital-editions.aspx">GCN </a>(Digital Only)</li>
@@ -342,7 +369,7 @@
     
     <li id="crimjust">
       <p class="resource_title"><strong>Criminal Justice</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.asc41.com/" target="_blank">American Society of Criminology</a></li>
@@ -360,7 +387,7 @@
 <li><a href="http://www.usdoj.gov/" target="_blank">United States Department of Justice</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>American Police Beat</li>
@@ -380,7 +407,7 @@
     
     <li id="culinary">
       <p class="resource_title"><strong>Culinary Arts</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.acfchefs.org/" target="_blank">American Culinary Federation</a></li>
@@ -393,7 +420,7 @@
 <li><a href="http://www.veganculinarycrusade.com/" target="_blank">Vegan Culinary Crusade</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>Allrecipes</li>
@@ -419,7 +446,7 @@
     
     <li id="electronics">
       <p class="resource_title"><strong>Electronics</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.epanorama.net/" target="_blank">All About Electronics</a></li>
@@ -433,7 +460,7 @@
 <li><a href="https://www.bergwall.com/residential-wiring/">Residential Wiring Videos</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p>><strong>Periodicals:</strong></p>
 
 <ul>
 <li>CE Pro</li>
@@ -450,7 +477,7 @@
     
     <li id="english">
       <p class="resource_title"><strong>English</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.citationmachine.net/" target="_blank">Citation Machine</a></li>
@@ -470,7 +497,7 @@
 <li><a href="https://www.amherst.edu/academiclife/support/writingcenter/resourcesforwriters/writing-process" target="_blank">The Writing Process</a>&nbsp; (Amherst College)</li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>Atlantic, The</li>
@@ -488,7 +515,7 @@
     
     <li id="gdesign">
       <p class="resource_title"><strong>Graphic Design</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.adweek.com/" target="_blank">Ad Week</a> - This is a great resource for locating any information that is transpiring in the advertising world.</li>
@@ -509,7 +536,7 @@
 <li><a href="http://webgrammar.com" target="_blank">Web Grammar</a></li>
 </ul>
 
-<p class="resource_title"><strong>Typography Web Sites:</strong></p>
+<p><strong>Typography Web Sites:</strong></p>
 
 <ul>
 <li><a href="http://www.design-technology.info/graphics/default.htm" target="_blank">Design &amp; Technology on the web</a></li>
@@ -520,7 +547,7 @@
 <li><a href="http://www.webstyleguide.com/index.html?/index.html" target="_blank">Web Typography Style Guide</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>Communication Arts</li>
@@ -537,9 +564,9 @@
     
     <li id="host">
       <p class="resource_title"><strong>Hospitality/Travel</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
-      <p class="resource_title"><strong>Hospitality and Event Industry Information/Resources:</strong></p>
+      <p><strong>Hospitality and Event Industry Information/Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.arda.org/" target="_blank">America Resort&nbsp;</a><a href="http://www.arda.org/">Development Association</a> (News &amp; information)</li>
@@ -556,7 +583,7 @@
 <li><a href="https://velvetchainsaw.com/">Velvet Chainsaw Consulting Blog</a>&nbsp;</li>
 </ul>
 
-<p class="resource_title"><strong>Travel Information and Planning:</strong></p>
+<p><strong>Travel Information and Planning:</strong></p>
 
 <ul>
 <li><a href="http://www.btnonline.com" target="_blank">Business Travel News Online</a></li>
@@ -576,7 +603,7 @@
 <li><a href="https://www.worldtravelguide.net/">World Travel Guide</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 </ul>
 
-<p class="resource_title"><strong>Airlines/Cruises/Railroads:</strong></p>
+<p><strong>Airlines/Cruises/Railroads:</strong></p>
 
 <ul>
 <li><a href="http://www.airwise.com" target="_blank">Airwise</a></li>
@@ -593,7 +620,7 @@
 <li><a href="http://www.bbonline.com" target="_blank">Bed and Breakfast Inns</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>Cond&eacute; Nast Traveler</li>
@@ -616,7 +643,7 @@
     
     <li id="HVAC">
       <p class="resource_title"><strong>HVAC</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="https://www.buildings.com/magazine">Buildings</a> (facility management)</li>
@@ -627,7 +654,7 @@
 <li><a href="http://en.wikipedia.org/wiki/HVAC" target="_blank">Wikipedia, the free encyclopedia</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>ASHRAE Journal (Located to the right of the photocopier)</li>
@@ -644,7 +671,7 @@
     
     <li id="math">
       <p class="resource_title"><strong>Mathematics</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.coolmath.com/" target="_blank">Coolmath</a> Pre-algebra, algebra, pre-calculus</li>
@@ -671,7 +698,7 @@
     
     <li id="med">
       <p class="resource_title"><strong>Medical/Nursing</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.cdc.gov" target="_blank">Centers for Disease Control and Prevention</a></li>
@@ -691,7 +718,7 @@
 </ul></li><li><a href="http://www.webmd.com" target="_blank">WebMD</a></li><li><a href="http://www.wheelessonline.com" target="_blank">Wheeless Textbook of Orthopaedics</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>AJN: American Journal of Nursing</li>
@@ -716,49 +743,49 @@
     
     <li id="mm">
       <p class="resource_title"><strong>Multimedia</strong></p>
-      <p class="resource_title"><strong>General</strong></p>
+      <p><strong>General</strong></p>
 
 <ul>
 <li><a href="https://creativecommons.org" target="_blank">Creative Commons Community</a></li>
 <li><a href="https://archive.org" target="_blank">Internet Archive Digital Library</a></li>
 </ul>
 
-<p class="resource_title"><strong>Web-Site Building</strong></p>
+<p><strong>Web-Site Building</strong></p>
 
 <ul>
 <li><a href="https://www.codecademy.com/learn/paths/web-development" target="_blank">Code Academy</a></li>
 <li><a href="https://websitesetup.org" target="_blank">How to Make a Website</a></li>
 </ul>
 
-<p class="resource_title"><strong>Video</strong></p>
+<p><strong>Video</strong></p>
 
 <ul>
 <li><a href="https://www.vidsplay.com" target="_blank">Vidsplay</a></li>
 <li><a href="https://www.videvo.net" target="_blank">Videvo</a></li>
 </ul>
 
-<p class="resource_title"><strong>Images</strong></p>
+<p><strong>Images</strong></p>
 
 <ul>
 <li><a href="https://www.google.com/culturalinstitute/beta/" target="_blank">Google Arts and Culture</a></li>
 <li><a href="https://unsplash.com" target="_blank">Unsplash</a></li>
 </ul>
 
-<p class="resource_title"><strong>Audio</strong></p>
+<p><strong>Audio</strong></p>
 
 <ul>
 <li><a href="https://freesound.org" target="_blank">Free Sound</a></li>
 <li><a href="http://www.opsound.org" target="_blank">OP Sound</a></li>
 </ul>
 
-<p class="resource_title"><strong>Web-Based Resources:</strong></p>
+<p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://www.open-directory.co/showcase#" target="_blank">Open Directory: Multimedia</a></li>
 <li><a href="http://www.webdeveloper.com" target="_blank">Web Developer.com - Multimedia</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>Absolute Sound</li>
@@ -814,7 +841,7 @@
     
     <li id="massage">
       <p class="resource_title"><strong>Therapeutic Massage</strong></p>
-      <p class="resource_title"><strong>Web-Based Resources:</strong></p>
+      <p><strong>Web-Based Resources:</strong></p>
 
 <ul>
 <li><a href="http://touchofelements.com" target="_blank">Elements Therapeutic Massage</a></li>
@@ -822,7 +849,7 @@
 <li><a href="http://www.ncbtmb.org" target="_blank">National Certification Board for Therapeutic Massage &amp; Bodywork</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>Massage and Bodywork Magazine</li>
@@ -847,7 +874,7 @@
 <li><a href="http://www.weldingsupply.com/" target="_blank">Welding Supplies</a></li>
 </ul>
 
-<p class="resource_title"><strong>Periodicals:</strong></p>
+<p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>The Welder</li>
@@ -863,7 +890,7 @@
     
     <li id="gen">
       <p class="resource_title"><strong>General Interest</strong></p>
-      <p class="resource_title"><strong>Periodicals:</strong></p>
+      <p><strong>Periodicals:</strong></p>
 
 <ul>
 <li>Atlantic, The</li>
@@ -902,7 +929,7 @@
     
     
   </ul>
-  
+</div>
   
   
   
