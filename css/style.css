@@ -376,6 +376,7 @@ font-style: italic;
 	float: left;
 	width: 115px;
 	margin: .6rem;
+	padding-right: 1rem;
 }
 	/* aside */
 		aside{
