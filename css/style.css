@@ -362,7 +362,11 @@ font-style: italic;
 			font-size: 2rem;
 			padding-bottom: 1rem;
 		}
-
+.about__mission__readingflirefly{
+	float: left;
+	width: 115px;
+	margin: .6rem;
+}
 	/* aside */
 		aside{
 			background-color: white;
@@ -412,6 +416,18 @@ font-style: italic;
 
 .about__section__meetstaff__2{
 	padding-top: 2rem;
+	
+}
+.about__section__meetstaff__2 p{
+	padding: 0 .75rem 0 .75rem;
+	margin-bottom: 1rem;
+}
+.about__section__meetstaff__1 p{
+	padding: 0 .75rem 0 .75rem;
+	margin-bottom: 1rem;
+}
+.about_staff_email{
+	padding: 0 .75rem 0 .75rem;
 }
 	/* footer */
 		footer{
@@ -811,31 +827,31 @@ li{
 			font-family: 'Nunito Sans', sans-serif;
 		}
 
-
-
-
 	/* about__section__meetstaff */
-	.about__section__meetstaff__1{
+	/* .about__section__meetstaff__1{
 		display: grid;
 		grid-template-areas: "staffimage stafftext";
 		grid-template-columns: 1fr 2fr;
 		grid-template-columns: auto;
 		gap: 1rem;
-	}
+	} */
 	.about__section__meetstaff__img{
 		grid-area: staffimage;
+		float: left;
+		width: 250px;
+		margin: 1rem 1rem 0 1rem;
 	}
 	.about__section__meetstaff__aboutstaff{
 		grid-area: stafftext;
 	}
-	.about__section__meetstaff__2{
+	/* .about__section__meetstaff__2{
 		display: grid;
 		grid-template-areas: "staffimage stafftext";
 		grid-template-columns: 1fr 2fr;
 		grid-template-columns: auto;
 		gap: 1rem;
 		margin-top: 2rem;
-	}
+	} */
 	.resource_title{
 		font-weight:bold;
 		font-size:1.3rem;
