@@ -257,8 +257,7 @@ font-style: italic;
 			margin-left: 0;
 		}
 		.home__section__info_img2{
-			width:28%;
-			float:right;
+			
 			
 		}
 		.programs_blurb{
@@ -534,7 +533,7 @@ border-radius: 5px;
 background: #f2f3d9;
 height: 26px;
 line-height: 26px;
-color: #960;
+color: #151e3f;
 }
 
 .tabs dd.active a, .tabs li.active a {
@@ -675,7 +674,7 @@ border-radius: 5px;
 background: #f2f3d9;
 height: 26px;
 line-height: 26px;
-color: #960;
+color: #151e3f;
 }
 
 .tabs dd.active a, .tabs li.active a {
@@ -794,7 +793,7 @@ li{
 		background: #f2f3d9;
 		height: 26px;
 		line-height: 26px;
-		color: #960;
+		color: #151e3f;
 	}
 
 	.tabs dd.active a, .tabs li.active a {
@@ -1324,7 +1323,7 @@ li{
 		background: #f2f3d9;
 		height: 26px;
 		line-height: 26px;
-		color: #960;
+		color: #151e3f;
 	}
 
 	.tabs dd.active a, .tabs li.active a {
@@ -1491,7 +1490,7 @@ li{
 			background: #f2f3d9;
 			height: 26px;
 			line-height: 26px;
-			color: #960;
+			color: #151e3f;
 		}
 	
 		.tabs dd.active a, .tabs li.active a {
@@ -1616,7 +1615,7 @@ li{
 		background: #f2f3d9;
 		height: 26px;
 		line-height: 26px;
-		color: #960;
+		color: #151e3f;
 	}
 
 	.tabs dd.active a, .tabs li.active a {
@@ -1742,7 +1741,7 @@ li{
 		background: #f2f3d9;
 		height: 26px;
 		line-height: 26px;
-		color: #960;
+		color: #151e3f;
 	}
 
 	.tabs dd.active a, .tabs li.active a {
