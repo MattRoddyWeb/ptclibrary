@@ -274,7 +274,7 @@ font-style: italic;
 		}
 		.home__section__info_article{
 			grid-area: subtitle;
-			margin-top: 9rem;
+			/* margin-top: 9rem; */
 		}
 		.home__section__info_img{
 			grid-area: imag;
