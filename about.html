@@ -50,7 +50,7 @@
           <li><a href="about.html" class="nav__link">About</a></li>
           <!-- <li><a href="#" class="nav__link">Contact</a></li> -->
           <li><a href="programs.html" class="nav__link">Resources for Your Program</a></li>
-          <li><a href="#" class="nav__link">Search</a></li>
+          <li><a href="https://ptcollege-pkc.bywatersolutions.com/cgi-bin/koha/opac-main.pl" class="nav__link">Search</a></li>
         </ol>
       </nav>
   </header>
@@ -137,9 +137,10 @@
   </main>
   <aside>
     <section id="search-2" class="widget widget_search">
-      <form>
-        <label for="site-search">Search the site:</label>
-        <input type="search" id="site-search" name="q">
+      <form action="https://ptcollege-pkc.bywatersolutions.com/cgi-bin/koha/opac-search.pl" method="get" id="form">
+        <label for="site-search">Search the PTC Library</label>
+        <input type="hidden" name="idx" value="">
+        <input type="search" id="query" name="q" placeholder="Search...">
         <button>Search</button>
       </form>
     </section>
