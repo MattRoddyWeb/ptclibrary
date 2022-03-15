@@ -191,22 +191,21 @@ font-style: italic;
 
 	/* style links */
 
-		a:not(.nav__link) {
-			color: #960;
-		}
-		a:visited:not(.nav__link){
-			color: rgb(4, 137, 167);
-		}
-		a:hover:not(.nav__link){
-			color: #099;
-		}
-		a:focus:not(.nav__link){
-			color: rgb(6, 106, 182);
-		}
-		a:active:not(.nav__link){
-				color: #f66;
-		}
-
+	a:not(.nav__link) {
+		color: #030027;
+	}
+	a:visited:not(.nav__link){
+		color: #4b0f05;
+	}
+	a:hover:not(.nav__link){
+		color: #324178;
+	}
+	a:focus:not(.nav__link){
+		color: #999;
+	}
+	a:active:not(.nav__link){
+		color: #000;
+	}
 	/* home__section__welcome */
 
 		.home__section__welcome{
@@ -557,6 +556,19 @@ font-style: italic;
 			font-family: Arial, Helvetica, sans-serif;
 			color: #f2f3d9;
 		}
+		.programs_buttons{
+			background-color:#dc9e82;
+			font-size: 1rem;
+			border-radius: 5px 5px 5px;
+			filter: drop-shadow(4px 4px #BF311A);
+			color:#030027;
+			margin:.2rem;
+			
+		}
+		.tabs.pill{
+			text-align:center;
+			margin:auto;
+		}
 /*tabs*/
 .tabs dd, .tabs li {
 	display: block;
@@ -665,6 +677,7 @@ margin-bottom: 20px;
 	.about__section__hx__article{
 		grid-area: text;
 		padding-left: 2rem;
+		padding-right:2rem;
 	}
 	.about__section__hx__image{
 		grid-area: hx_image;
@@ -816,6 +829,7 @@ li{
 			grid-template-columns: 2fr 1fr;
 			grid-template-rows: auto; 
 			padding: 2rem;
+			
 			margin-bottom: 1.5rem;
 			margin-top: 1.5rem;
 			box-shadow:0 0 10px #03002798;
@@ -1015,6 +1029,7 @@ li{
 			.about__section__hx__article{
 				grid-area: text;
 				padding-left: 2rem;
+				padding-right:2rem;
 			}
 			.about__section__hx__image{
 				grid-area: hx_image;
@@ -1148,19 +1163,20 @@ li{
 		/* style links */
 
 			a:not(.nav__link) {
-				color: #960;
+				color: #030027;
 			}
 			a:visited:not(.nav__link){
-				color: #909;
+				color: #4b0f05;
+				
 			}
 			a:hover:not(.nav__link){
-				color: #099;
+				color: #324178;
 			}
 			a:focus:not(.nav__link){
 				color: #999;
 			}
 			a:active:not(.nav__link){
-				color: #f66;
+				color: #000;
 			}
 
 		/* home__section__welcome */
@@ -1926,8 +1942,21 @@ li{
 	font-family: 'Nunito Sans', sans-serif;
 }
 .scrollable {
+	width:300px;
+	max-height:300px;
+	padding:1rem;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#fcfcfa;
+	color:#030027;
+	text-align:justify;
+	overflow-y:auto;
     display: block;
-            border: 0px solid red;
+	
+		
+		
+	  
+            
             padding: 5px;
             margin-top: 5px;
             width: 152%;
