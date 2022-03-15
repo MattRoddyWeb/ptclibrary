@@ -250,6 +250,17 @@ font-style: italic;
 			left: 332px;
 			bottom: -24px;
 		}
+		/* program__section__info */
+		.program__section__info{
+			padding: 2rem;
+			margin-bottom: 1.5rem;
+			margin-top: 1.5rem;
+			box-shadow:0 0 10px #03002798;
+			/* border: 2px solid #030027; */
+			border-radius: 5px;
+			background-color: white;
+			padding-bottom: 10rem;
+		}
 	/* home__section__info */
 
 		.home__section__info{
@@ -497,6 +508,7 @@ font-style: italic;
 }
 .program__search__img{
 	width: 150px;
+	padding-top: 5rem;
 }
 	/* footer */
 		footer{
