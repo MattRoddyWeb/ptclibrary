@@ -232,7 +232,6 @@ font-style: italic;
 			grid-area: image;
 			/* padding-left: 1rem; */
 			width: 50%;
-			
 			/* width: 100%; */
 			/* margin-top:15rem;
 			margin-right: 2rem; */
@@ -246,7 +245,7 @@ font-style: italic;
 			/* border-left: 12px solid transparent; */
 			border-top: 12px solid rgb(240, 239, 239);
 			border-bottom: 20px solid transparent;
-			left: 332px;
+			left: 32px;
 			bottom: -24px;
 		}
 		/* program__section__info */
@@ -299,12 +298,12 @@ font-style: italic;
 			/* grid-area: info; */
 			padding-left: 1rem;
 			padding-top: 5%;
-			margin-top: 9rem;
+		
 		}
 		.home__section__info_marquee{
 			grid-area: mar;
 			width: 150px;
-			padding: 1rem 0 0 0
+			padding: 1rem 0 0 0;
 		}
 		
 	/* home__section__info_marquee */
@@ -327,7 +326,7 @@ font-style: italic;
 		}
 		.home__section__info_marquee__img{
 			grid-area: im;
-			width: 5.5rem;
+			width: 4rem;
 			margin: .15rem !important;
 		}
 		.home__section__info_marquee__program__link{
@@ -338,12 +337,12 @@ font-style: italic;
 		}
 		.home__section__info_marquee__img1{
 			grid-area: im1;
-			width: 5.5rem;
+			width: 4rem;
 			margin: .15rem !important;
 		}
 		.home__section__info_marquee__img2{
 			grid-area: im2;
-			width: 5.5rem;
+			width: 4rem;
 			margin: .15rem !important;
 		}
 
@@ -407,8 +406,8 @@ font-style: italic;
 .about__mission__readingflirefly{
 	float: left;
 	width: 115px;
-	margin: .6rem;
-	padding-right: 1rem;
+	margin: 1rem;
+	padding-right: 1.25rem;
 }
 	/* aside */
 		aside{
@@ -477,7 +476,7 @@ font-style: italic;
   font-family: sans-serif;
   font-size: 18px;
   line-height: 24px;
-  width: 400px;
+  /* width: 400px; */
   background: rgb(240, 239, 239);
   border-radius: 40px;
   padding: 24px;
@@ -699,6 +698,9 @@ margin-bottom: 20px;
 /* Media queries */
 
 	@media screen and (min-width: 480px){
+		.home__section__info_article{
+			padding-top: 0;
+		}
 
 		.nav__button{
 
@@ -822,6 +824,9 @@ li{
 	
 
 	@media screen and (min-width: 650px){
+		.bubble-bottom-right:before{
+			left: 230px;
+		}
 		.home__section__welcome{
 			background-color: white;
 			 display: grid;
@@ -851,11 +856,10 @@ li{
 		}
 		.home__section__welcome_img{
 			grid-area: image;
-			/* padding-left: 1rem; */
+		
 			padding-top: 12rem;
 			width: 100%;
-			/* margin-top:15rem;
-			margin-right: 2rem; */
+		
 		} 
 		.nav__button{
 
@@ -995,6 +999,16 @@ li{
 	}
 	li{
 		font-family: 'Nunito Sans', sans-serif;
+	}
+	.home__section__info_marquee__img{
+		width: 7rem;
+	}
+	
+	.home__section__info_marquee__img1{
+		width: 7rem;
+	}
+	.home__section__info_marquee__img2{
+		width:7rem;
 	}
 	
 		}
@@ -1254,22 +1268,15 @@ li{
 				font-family: 'Alegreya', serif;
 			}
 			.home__section__info_marquee__img{
-				grid-area: im;
-				width: 15rem;
+				width: 10rem;
 			}
-			.home__section__info_marquee__program__link{
-				transition: transform 1s ease .2s;
-			}
-			.home__section__info_marquee__program__link:hover{
-				transform: scale(2.5);
-			}
+			
 			.home__section__info_marquee__img1{
-				grid-area: im1;
-				width: 15rem;
+				width: 10rem;
 			}
 			.home__section__info_marquee__img2{
-				grid-area: im2;
-				width: 15rem;
+				width: 10rem;
+			}
 			}
 		/* home__section__image */
 			.home__section__image{
@@ -1499,9 +1506,18 @@ li{
 	}
 
 	
-	}
+	
 	@media screen and (min-width: 780px){
-
+		.home__section__info_marquee__img{
+			width: 5rem;
+		}
+		
+		.home__section__info_marquee__img1{
+			width: 5rem;
+		}
+		.home__section__info_marquee__img2{
+			width: 5rem;
+		}
 		body{
 
 			display: grid;
@@ -1526,15 +1542,7 @@ li{
 			grid-area: aside;
 			margin-top: 1.5rem;
 		}
-		.home__section__info_marquee__img{
-			width: 10rem;
-		} 
-		.home__section__info_marquee__img1{
-			width: 10rem;
-		} 
-		.home__section__info_marquee__img2{
-			width: 10rem;
-		} 
+		
 
 		.nav__button{
 
@@ -1668,7 +1676,16 @@ li{
 	}
 
 	@media screen and (min-width: 960px){
-
+		.home__section__info_marquee__img{
+			width: 6rem;
+		}
+		
+		.home__section__info_marquee__img1{
+			width: 6rem;
+		}
+		.home__section__info_marquee__img2{
+			width: 6rem;
+		}
 		html{
 
 			font-size: 100%;
@@ -1794,7 +1811,7 @@ li{
 
 	
 	@media screen and (min-width: 1068px){
-
+	
 		html{
 
 			font-size: 100%;
