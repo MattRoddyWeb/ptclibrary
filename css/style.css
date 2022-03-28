@@ -27,6 +27,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	
 }
 body {
 	line-height: 1;
@@ -556,18 +557,24 @@ font-style: italic;
 			color: #f2f3d9;
 		}
 		.programs_buttons{
-			background-color:#dc9e82;
+			/* background-color:#dc9e82;
 			font-size: 1rem;
 			border-radius: 5px 5px 5px;
 			filter: drop-shadow(4px 4px #BF311A);
 			color:#030027;
-			margin:.2rem;
+			/* margin:.2rem; */
+			background-color: white;
+			margin-bottom:1rem;
+			
 			
 		}
 		.tabs.pill{
 			text-align:center;
 			margin:auto;
+			
+			
 		}
+		
 /*tabs*/
 .tabs dd, .tabs li {
 	display: block;
