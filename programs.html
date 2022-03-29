@@ -49,7 +49,13 @@
 }
 .programs_buttons:hover::before{
   opacity: 1;
-  background-color: #bbbcc1;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+35,c16e70+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 35%, #c16e70 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 35%,#c16e70 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 35%,#c16e70 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c16e70',GradientType=0 ); /* IE6-9 */
+
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
@@ -64,7 +70,7 @@
   text-transform: uppercase;
   color: #000;
   cursor: pointer;
-  border: 3px solid;
+  border: 2px solid;
   padding: 0.25em 0.5em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   position: relative;
@@ -79,6 +85,7 @@
   top: 5px;
   left: 5px;
 }
+
 
 
 
@@ -105,7 +112,7 @@
           <li><a href="about.html" class="nav__link">About</a></li>
           <!-- <li><a href="#" class="nav__link">Contact</a></li> -->
           <li><a href="policies.html" class="nav__link">Policies</a></li>
-          <li><a href="programs.html" class="nav__link">Resources for Your Program</a></li>
+          <li><a href="programs.html" class="nav__link">Resources</a></li>
           <li><a href="https://ptcollege-pkc.bywatersolutions.com/cgi-bin/koha/opac-main.pl" class="nav__link">Search</a></li>
         </ol>
       </nav>
@@ -124,7 +131,7 @@
     </section>
     
     
-    <section class="home__section__welcome">
+    <section>
       <article class="home__section__welcome_article">
     <div class="row">
       <div class="nine columns push-three">
@@ -251,7 +258,7 @@
     
   </dl>
 
-  
+  <section class="home__section__welcome">
   <div class="scrollable">
    
 
