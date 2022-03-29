@@ -753,7 +753,7 @@ margin-bottom: 20px;
 	}
 	.policies__sprite{
 		grid-area: sprite;
-		width: 150px;
+		width: 200px;
 	}
 /* Media queries */
 @media screen and (min-width: 280px){
@@ -1073,7 +1073,7 @@ li{
 		.home__section__welcome_img{
 			grid-area: image;
 			padding-top: 16rem;
-			width: 150px;
+			width: 250px;
 		
 		} 
 		.nav__button{
