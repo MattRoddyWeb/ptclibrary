@@ -266,8 +266,8 @@ font-style: italic;
 		background-color: white;
 		display: grid;
 		grid-template-areas: "titl titl" "imag subtitle" "marquee marquee";
-		grid-template-columns: 1fr 2fr;
-		grid-template-rows: auto auto;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto;
 		padding: 2rem;
 		margin-bottom: 1.5rem;
 		margin-top: 1.5rem;
@@ -279,11 +279,16 @@ font-style: italic;
 
 	.marquee__gallery{
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
 		grid-auto-rows: minmax(80px, auto);
 		grid-gap: .5rem;
 		grid-area: marquee;
 		padding-top: 2rem;
+
+	}
+	.marquee__gallery img{
+		width: 100%;
+		height: auto;
 	}
 		.home__section__info_title{
 			grid-area: titl;
@@ -703,6 +708,12 @@ margin-bottom: 20px;
 	.about__section__hx__image{
 		grid-area: hx_image;
 	}
+	.about__section__hx li{
+		font-size: 1.15rem;
+	}
+	p{
+		font-size: 1.15rem;
+	}
 
 	/* home__aside__section__24hour */
 	.home__aside__section__24hours{
@@ -717,6 +728,17 @@ margin-bottom: 20px;
 	li{
 		font-family: 'Nunito Sans', sans-serif;
 	}
+
+	.policies__section{
+	border-radius: 5px; 
+	display: block;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	box-shadow:0 0 10px #03002798;
+	background-color: white;
+	padding: 2rem;
+	}
+
 /* Media queries */
 @media screen and (min-width: 280px){
 	.home__section__info_article{
@@ -969,6 +991,11 @@ li{
 	
 
 	@media screen and (min-width: 650px){
+		.policies__sprite{
+			position: relative;
+			top: -8rem;
+		
+		}
 		.bubble-bottom-right:before{
 			left: 230px;
 		}
@@ -1176,7 +1203,7 @@ li{
 			.about__section__hx{
 				display: grid;
 				grid-template-areas:"title hx_image" "text hx_image";
-				grid-template-columns: 2fr 1fr;
+				grid-template-columns: 1fr 1fr;
 				grid-template-rows: auto auto;
 				background-color: white;
 				
@@ -1365,7 +1392,7 @@ li{
 			.home__section__info{
 				background-color: white;
 				display: grid;
-				grid-template-areas: "titl titl" "imag subtitle" "mar mar";
+				grid-template-areas: "titl titl" "imag subtitle" "marquee marquee";
 				grid-template-columns: 1fr 2fr;
 				grid-template-rows: auto auto;
 				padding: 1rem;
