@@ -642,16 +642,14 @@ margin-bottom: 20px;
 		transition: transform 1s ease .2s;
 	}	
 	.program__img:hover{
-		transform: scale(.75);
+		transform: scale(1.25);
 	}
 /* Media queries */
 @media screen and (min-width: 280px){
 	.home{
-
 		padding: 0%;
 		margin: 0 3%;
 	}
-
 	.home__section__info_article{
 		padding-top: 0;
 	}
