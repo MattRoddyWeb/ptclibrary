@@ -362,6 +362,9 @@ font-style: italic;
 			padding: .5rem .5rem 1rem .5rem;
 			margin-top: 1rem;
 		}
+		.desk_contact_head{
+			margin-top: 1.5rem;
+		}
 /* about__section__meetstaff */
 .about__section__meetstaff{
 	padding: 1rem;
@@ -3324,7 +3327,7 @@ li{
 				display: block;
 				margin: 0;
 				padding: 4%;
-				font-size:1.1rem;
+				font-size:1.3rem;
 				width: 100%;
 				font-family: 'Alegreya', serif;
 			}
@@ -3913,6 +3916,9 @@ li{
 			position: relative;
 			text-align: center;
 			color: white;
+		}
+		.nav__link{
+			font-size: 1.4rem;
 		}
 
 		.logo{
