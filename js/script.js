@@ -46,11 +46,7 @@
  
 
 // Query Selectors //
-
-  
-
   navbutton.addEventListener("click", navclicked);
-
   detectsize();
 
 

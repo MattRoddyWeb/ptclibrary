@@ -475,15 +475,19 @@ font-style: italic;
 			margin-bottom:1rem;
 		}
 		.programs_buttons{
-			margin-bottom:1rem;
+			margin:1rem;
 			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00588e+1,ffffff+42,ffffff+42,ffffff+53,ffffff+68 */
 background: #00588e; /* Old browsers */
 background: -moz-linear-gradient(top,  #00588e 1%, #ffffff 42%, #ffffff 42%, #ffffff 53%, #ffffff 68%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #00588e 1%,#ffffff 42%,#ffffff 42%,#ffffff 53%,#ffffff 68%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #00588e 1%,#ffffff 42%,#ffffff 42%,#ffffff 53%,#ffffff 68%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00588e', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-			
+		
 		}
+		.programs_button a:hover{
+			background-color:#C16E70 !important;
+		}
+
 		.tabs.pill{
 			text-align:center;
 			margin:auto;
@@ -504,7 +508,7 @@ dd {
 .tabs.pill dd, .tabs.pill li {
 margin-right: 10px;
 }
-dl.tabs.pill>dd.active a, dl.tabs.pill>dd.active:hover a {
+.program__button:hover a{
 	border: 1px solid #fff;
 	color: white;
 	background: #151e3f;
