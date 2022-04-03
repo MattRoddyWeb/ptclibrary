@@ -475,7 +475,7 @@ font-style: italic;
 			margin-bottom:1rem;
 		}
 		.programs_buttons{
-			margin:1rem;
+			margin:.4rem;
 			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00588e+1,ffffff+42,ffffff+42,ffffff+53,ffffff+68 */
 background: #00588e; /* Old browsers */
 background: -moz-linear-gradient(top,  #00588e 1%, #ffffff 42%, #ffffff 42%, #ffffff 53%, #ffffff 68%); /* FF3.6-15 */
